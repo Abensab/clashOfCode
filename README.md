@@ -1,6 +1,6 @@
 # ClashOfCode
 
-# 1. Iterative Divisors challenge
+## 1. Iterative Divisors challenge
 In this challenge, we must get the 'ai' divisors at number 'n' like this example:
 
 
@@ -16,6 +16,8 @@ n = a0 + ----------------
 
 The objective must have a list with 'ai' numbers.
 π or e numbers have infinite divisors, this it why give us the lenght of the result list size.
+
+### Example:
 
 The result for π number with a length result of 5 must be:
 <pre>
