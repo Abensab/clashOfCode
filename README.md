@@ -1,4 +1,4 @@
-# clashOfCode
+# ClashOfCode
 Repo of clash of code challenges
 
 # 1. Iterative Divisors challenge
