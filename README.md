@@ -21,17 +21,17 @@ The objective must have a list with 'ai' numbers.
 The result for π number with a length result of 5 must be:
 <pre>
 [<b>3</b>,<b>7</b>,<b>15</b>,<b>1</b>,<b>292</b>]
-</pre
+</pre>
 because the formula is:
 
-<pre><code>
-π = 3.141592653589793
-π = <b>3</b> + 0.141592653589793
-π = <b>3</b> + (1/0.141592653589793)
-π = <b>3</b> + (1/(<b>7</b>+0.062513306))
-π = <b>3</b> + (1/(<b>7</b>+(1/(<b>15</b>+0.996594389)))
+<pre>
+π = 3.141592653589793<br>
+π = <b>3</b> + 0.141592653589793<br>
+π = <b>3</b> + (1/0.141592653589793)<br>
+π = <b>3</b> + (1/(<b>7</b>+0.062513306))<br>
+π = <b>3</b> + (1/(<b>7</b>+(1/(<b>15</b>+0.996594389)))<br>
 π = ...
-</code></pre>
+</pre>
 
 
 To emphasize, the code list we must return must no have any blank spaces.
