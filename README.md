@@ -34,4 +34,4 @@ because the formula is:
 </pre>
 
 
-To emphasize, the code list we must return must no have any blank spaces.
+To emphasize, the code list that we must return must no have any blank spaces.
