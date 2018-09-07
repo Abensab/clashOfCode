@@ -2,7 +2,7 @@
 
 The objective at this challenges is to be the fastest in pass all test cases and the final case, between a group with a maximun of 10 members.
 
-I emphasize that my code couldn't be efficient or better, but i've tried to done that.
+I emphasize that my code couldn't be efficient or the best solution, but i've tried to done that.
 
 
 ## 1. Iterative Divisors challenge
