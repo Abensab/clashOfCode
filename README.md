@@ -1,5 +1,4 @@
 # ClashOfCode
-Repo of clash of code challenges
 
 # 1. Iterative Divisors challenge
 In this challenge, we must get the 'x' divisors at a number like this example:
