@@ -1,5 +1,10 @@
 # ClashOfCode
 
+The objective at this challenges is to be the fastest in pass all test cases and the final case, between a group with a maximun of 10 members.
+
+I emphasize that my code couldn't be efficient or better, but i've tried to done that.
+
+
 ## 1. Iterative Divisors challenge
 In this challenge, we must get the 'ai' divisors at number 'n' like this example:
 
@@ -19,7 +24,7 @@ The objective must have a list with 'ai' numbers.
 
 ### Example:
 
-The result for π number with a length result of 5 must be:
+The result for π number with a length result of 5 must be like this (**without blank spaces**):
 <pre>
 [<b>3</b>,<b>7</b>,<b>15</b>,<b>1</b>,<b>292</b>]
 </pre>
@@ -36,4 +41,4 @@ because the formula is:
 </pre>
 
 
-To emphasize, the code list that we must return must no have any blank spaces.
+
