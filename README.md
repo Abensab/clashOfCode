@@ -41,6 +41,9 @@ because the formula is:
 </pre>
 ______________________________________________
 ## 2.Checking passwords
+| Position | TIME  | 
+| :------: | :---: | 
+|    4     | 10:40 |
 
 The main objective of this challenge was chek if an input string is a secure password, for that it was accomplish 4 principles:
 
@@ -50,6 +53,7 @@ The main objective of this challenge was chek if an input string is a secure pas
 4. One character must be a number
 
 If the string accomplish these characteristics, we mus return "true", else "false".
-#### * Position:4 Time:10:40
+
+
 ______________________________________________
 
