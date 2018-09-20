@@ -39,6 +39,17 @@ because the formula is:
 π = <b>3</b> + (1/(<b>7</b>+(1/(<b>15</b>+0.996594389)))<br>
 π = ...
 </pre>
+______________________________________________
+## 2.Checking passwords
 
+The main objective of this challenge was chek if an input string is a secure password, for that it was accomplish 4 principles:
 
+1. May be have almost 8 characters
+2. One character mus be uppercase
+3. One character must be lowercase
+4. One character must be a number
+
+If the string accomplish these characteristics, we mus return "true", else "false".
+#### * Position:4 Time:10:40
+______________________________________________
 
