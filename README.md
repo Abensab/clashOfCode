@@ -191,3 +191,26 @@ S contains less than 100 characters.
 | :----------------------------------------------: | :---------------------: | 
 |           .2A1N5Y64! §C*H*zAtrR|ANYCHAR|
  
+ 
+ ____________________________________________
+ ## 8.Get intersections between circles
+ 
+| Position |  TIME |  LANGUAGE  |       MODE        |  CHARACTERS |
+| :------: | :---: |  :-------: | :---------------: | :---------: |
+|   2/4    | 4:34  |   Python   |   Shortest code   |      58     |
+
+ 
+You are given a number of circles assuming that none are positioned on top of each other. What is the most number of points that they will intersect at? For example 3 circles: 6 points
+
+#### Input
+One int x the number of circles
+Output
+One int y the maximum number of intersecting points
+
+#### Constraints
+1<x<1000000000
+
+#### Example
+|                    INPUT                         |          OUTPUT         | 
+| :----------------------------------------------: | :---------------------: | 
+|3|6|
