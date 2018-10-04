@@ -41,9 +41,9 @@ because the formula is:
 </pre>
 ______________________________________________
 ## 2.Checking passwords
-| Position | TIME  | 
-| :------: | :---: | 
-|    4     | 10:40 |
+| Position | TIME  |  LANGUAGE  |
+| :------: | :---: | :--------: |  
+|    4     | 10:40 |   Python   |
 
 The main objective of this challenge was chek if an input string is a secure password, for that it was accomplish 4 principles:
 
@@ -56,4 +56,23 @@ If the string accomplish these characteristics, we mus return "true", else "fals
 
 
 ______________________________________________
+## 3.Counting ones
 
+| Position |  TIME |  LANGUAGE  | 
+| :------: | :---: |  :-------: | 
+|   7/8    | 15:00 |     Go     |
+
+The game mode is REVERSE: You do not have access to the statement. You have to guess what to do by observing the following set of tests:
+
+|    NAME    |                            INPUT                                | RETURN |
+|  :------:  | :------------------------------------------------------------:  | :----: |
+|01 Test 1   |                         3 <br>1 0 1                             |    0   |
+|02 Test 2   |                         3 <br>0 1 0                             |    1   |
+|03 Test 3   |                        5<br>1 0 1 0 0                           |    0   |
+|04 Test 4   |                  10<br>1 0 1 0 0 1 0 1 0 0                      |    0   |
+|05 Test 5   |                12<br>1 1 1 1 1 1 1 1 1 1 1 1                    |    0   |
+|06 Test 6   |               13<br>1 1 1 1 1 1 1 1 1 1 1 1 1                   |    1   |
+|07 Test 7   |     24<br>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1       |    1   |
+|08 Test 8   |30<br>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0|    0   |
+
+The objective of this challenge was return "0" if the counting of 1 was even, 1 if was odd.
