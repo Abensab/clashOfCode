@@ -77,27 +77,33 @@ The game mode is REVERSE: You do not have access to the statement. You have to g
 
 The objective of this challenge was return "0" if the counting of 1 was even, 1 if was odd.
 ______________________________________________
-## 
+## 4. Ascii to string
+
+| Position |  TIME |  LANGUAGE  | 
+| :------: | :---: |  :-------: | 
+|   4/4    | 6:21  |     Go     |
 
 The program:
 Your program must convert a sequence of integers into a string of ASCII characters.
 
-INPUT:
+#### INPUT:
 Line 1: An integer charCount for the number of integers to convert.
 Line 2: charCount integers charCode, separated by spaces.
 
-OUTPUT:
+#### OUTPUT:
+<pre>
 A single line containing a string of characters with the given ASCII codes.
+</pre>
 
-CONSTRAINTS:
+#### CONSTRAINTS:
+<pre>
 0 < charCount < 1000 
 32 ≤ charCode ≤ 126
+</pre>
 
-EXAMPLE:
-Input
-11 
-72 101 108 108 111 32 87 111 114 108 100
-Output
-Hello World
+#### EXAMPLE:
+|                      INPUT                    |     OUTPUT    | 
+| :-------------------------------------------: | :-----------: |  
+|11 <br>72 101 108 108 111 32 87 111 114 108 100|  Hello World  |
  
  
