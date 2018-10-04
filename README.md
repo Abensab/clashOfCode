@@ -137,7 +137,7 @@ ______________________________________________
 | :------: | :---: |  :-------: | :---------------: | :---------: |
 |   2/5    | 5:11  |     Go     |   Shortest code   |     362     |
 
-
+#### The program:
 You must output the number in MIDDLE value for each of given lines.
 <pre>
 Triplet → Output
@@ -165,3 +165,29 @@ N lines, each line is the MIDDLE number in value.
 | :----------------------------------------------: | :---------------------: | 
 |5<br>1 2 3<br>5 3 8<br>9 1 7<br>4 2 4<br>6 6 6<br>|<br>2<br>5<br>7<br>4<br>6<br>|
 
+________________________________________
+## 7. Get uppercase characters
+
+| Position |  TIME |  LANGUAGE  |       MODE        | 
+| :------: | :---: |  :-------: | :---------------: | 
+|   4/7    | 4:15  |   Python   |   Fastest code    |   
+
+#### The program:
+Your program must output only the capital letters of the string given as input.
+
+#### INPUT:
+A string S.
+
+#### OUTPUT:
+A string containing S stripped of all characters except capital letters.
+
+#### CONSTRAINTS:
+S contains at least 1 capital letter.
+S contains less than 100 characters.
+
+#### EXAMPLE:
+
+|                    INPUT                         |          OUTPUT         | 
+| :----------------------------------------------: | :---------------------: | 
+|           .2A1N5Y64! §C*H*zAtrR|ANYCHAR|
+ 
