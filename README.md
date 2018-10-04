@@ -41,9 +41,9 @@ because the formula is:
 </pre>
 ______________________________________________
 ## 2.Checking passwords
-| Position | TIME  |  LANGUAGE  |
-| :------: | :---: | :--------: |  
-|    4     | 10:40 |   Python   |
+| Position | TIME  |  LANGUAGE  |     MODE    |
+| :------: | :---: | :--------: | :---------: |
+|    4     | 10:40 |   Python   |Fastest code |
 
 The main objective of this challenge was chek if an input string is a secure password, for that it was accomplish 4 principles:
 
@@ -58,9 +58,9 @@ If the string accomplish these characteristics, we mus return "true", else "fals
 ______________________________________________
 ## 3.Counting ones
 
-| Position |  TIME |  LANGUAGE  | 
-| :------: | :---: |  :-------: | 
-|   7/8    | 15:00 |     Go     |
+| Position |  TIME |  LANGUAGE  |    MODE    |
+| :------: | :---: |  :-------: | :---------:|
+|   7/8    | 15:00 |     Go     |Fastest code|
 
 The game mode is REVERSE: You do not have access to the statement. You have to guess what to do by observing the following set of tests:
 
@@ -79,9 +79,9 @@ The objective of this challenge was return "0" if the counting of 1 was even, 1 
 ______________________________________________
 ## 4. Ascii to string
 
-| Position |  TIME |  LANGUAGE  | 
-| :------: | :---: |  :-------: | 
-|   4/4    | 6:21  |     Go     |
+| Position |  TIME |  LANGUAGE  |    MODE     |
+| :------: | :---: |  :-------: | :---------: |
+|   4/4    | 6:21  |     Go     |Fastest code |
 
 The program:
 Your program must convert a sequence of integers into a string of ASCII characters.
@@ -106,12 +106,12 @@ A single line containing a string of characters with the given ASCII codes.
 | :-------------------------------------------: | :-----------: |  
 |11 <br>72 101 108 108 111 32 87 111 114 108 100|  Hello World  |
  
- _________________________________-
+ _________________________________
 ## 5. The result angle
  
-| Position |  TIME |  LANGUAGE  | 
-| :------: | :---: |  :-------: | 
-|   7/8    | 4:37  |     Go     |
+| Position |  TIME |  LANGUAGE  |     MODE    |
+| :------: | :---: |  :-------: | :---------: |
+|   7/8    | 4:37  |     Go     | Fastest code|
 
 #### The program:
 Given two angles of a triangle, calculate the third angle.
@@ -130,4 +130,38 @@ Une seule ligne containing the last angle c.
 |   INPUT   |   OUTPUT  | 
 | :-------: | :-------: | 
 |   1 1     |    178    | 
- 
+______________________________________________
+## 6. The middel number
+
+| Position |  TIME |  LANGUAGE  |       MODE        |  CHARACTERS |
+| :------: | :---: |  :-------: | :---------------: | :---------: |
+|   2/5    | 5:11  |     Go     |   Shortest code   |     362     |
+
+
+You must output the number in MIDDLE value for each of given lines.
+<pre>
+Triplet → Output
+1 5 6 → 5
+8 4 6 → 6
+3 1 3 → 3
+2 9 2 → 2
+6 6 6 → 6
+</pre>
+
+#### Input:
+Line 1: An integer N for the lines of numbers to proceed.
+Next N lines: Three numbers X, Y and Z separated in space.
+
+#### Output:
+N lines, each line is the MIDDLE number in value.
+
+#### Constraints
+1 ≤ N ≤ 20
+-65535 ≤ X,Y,Z ≤ 65535
+
+#### EXAMPLE: 
+
+|                    INPUT                         |          OUTPUT         | 
+| :----------------------------------------------: | :---------------------: | 
+|5<br>1 2 3<br>5 3 8<br>9 1 7<br>4 2 4<br>6 6 6<br>|<br>2<br>5<br>7<br>4<br>6<br>|
+
