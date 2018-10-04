@@ -106,4 +106,23 @@ A single line containing a string of characters with the given ASCII codes.
 | :-------------------------------------------: | :-----------: |  
 |11 <br>72 101 108 108 111 32 87 111 114 108 100|  Hello World  |
  
+ _________________________________-
+ The program:
+Given two angles of a triangle, calculate the third angle.
+
+INPUT:
+A single line containing the two angles a et b separated by a space.
+
+OUTPUT:
+Une seule ligne containing the last angle c.
+
+CONSTRAINTS:
+1≤a<180
+1≤b<180
+
+EXAMPLE:
+Input
+1 1
+Output
+178
  
